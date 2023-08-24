@@ -1,7 +1,7 @@
 const Banking = () => {
   return (
-    <section>
-      <div>
+    <section className="h-[100dvh] bg-[#00D54B] snap-start relative">
+      <div className="absolute flex items-center smlap:flex-col-reverse revsmlap:w-[370px] top-[50%] right-[50%] -translate-y-[50%] -translate-x-[25%] smlap:w-[300px] smlap:translate-x-[50%] smlap:gap-10 mob:!w-[200px] z-50">
         <div className="relative z-10 revsmlap:left-10">
           <h1 className="text-3xl mob:text-xl font-Agrandir text-white">
             Banking
