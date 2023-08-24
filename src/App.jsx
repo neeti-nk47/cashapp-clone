@@ -1,9 +1,9 @@
 import MobileLastSection from "./pages/MobileLastSection";
-import Banking from "./pages/banking";
-import Boost from "./pages/boost";
-import Hero from "./pages/hero";
-import Investing from "./pages/investing";
-import Payments from "./pages/payments";
+import Banking from "./pages/Banking";
+import Boost from "./pages/Boost";
+import Hero from "./pages/Hero";
+import Investing from "./pages/Investing";
+import Payments from "./pages/Payments";
 
 function App() {
   return (
