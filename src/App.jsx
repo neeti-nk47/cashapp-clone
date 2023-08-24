@@ -8,8 +8,9 @@ import Payments from "./pages/payments";
 function App() {
   return (
     <>
-      <div>
+      <div className="snap-y snap-mandatory h-[100vh] overflow-y-scroll m-0 smlap:hidden">
         <Hero />
+        <Payments />
       </div>
     </>
   );
