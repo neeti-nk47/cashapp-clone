@@ -1,4 +1,3 @@
-import "./App.css";
 import Banking from "./pages/banking";
 import Boost from "./pages/boost";
 import Hero from "./pages/hero";
