@@ -2,7 +2,7 @@ const Footer = ({ themeColor }) => {
   const antiThemeColor = themeColor === "black" ? "white" : "black";
 
   return (
-    <footer>
+    <footer className="absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 mdlap:px-10 smlap:hidden">
       <div>
         <button
           className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] border-${antiThemeColor}-800 rounded-md bg-${themeColor}`}
