@@ -22,7 +22,6 @@ function App() {
         <Banking />
         <Boost />
         <Investing />
-        <MobileLastSection />
       </div>
     </>
   );
