@@ -12,6 +12,7 @@ function App() {
         <Hero />
         <Payments />
         <Banking />
+        <Boost />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 const Boost = () => {
   return (
-    <section>
+    <section className="h-[100dvh] bg-black snap-start relative">
       <div>
         <div className="relative z-10 revsmlap:bottom-16">
           <h1 className="text-3xl mob:text-xl font-Agrandir text-[#00D54B]">
