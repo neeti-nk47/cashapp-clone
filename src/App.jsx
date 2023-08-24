@@ -14,6 +14,14 @@ function App() {
         <Boost />
         <Investing />
       </div>
+
+      <div className="snap-y snap-mandatory h-[100vh] overflow-y-scroll m-0 revsmlap:hidden">
+        <Hero />
+        <Payments />
+        <Banking />
+        <Boost />
+        <Investing />
+      </div>
     </>
   );
 }
