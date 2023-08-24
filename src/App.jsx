@@ -1,3 +1,4 @@
+import MobileLastSection from "./pages/MobileLastSection";
 import Banking from "./pages/banking";
 import Boost from "./pages/boost";
 import Hero from "./pages/hero";
@@ -21,6 +22,7 @@ function App() {
         <Banking />
         <Boost />
         <Investing />
+        <MobileLastSection />
       </div>
     </>
   );
