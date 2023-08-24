@@ -1,13 +1,20 @@
-import { useState } from "react";
-
 import "./App.css";
+import Banking from "./pages/banking";
+import Boost from "./pages/boost";
+import Hero from "./pages/hero";
+import Investing from "./pages/investing";
+import Payments from "./pages/payments";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>Vite + React</h1>
+      <div>
+        <Hero />
+        <Payments />
+        <Banking />
+        <Boost />
+        <Investing />
+      </div>
     </>
   );
 }
