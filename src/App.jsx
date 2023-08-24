@@ -10,10 +10,6 @@ function App() {
     <>
       <div>
         <Hero />
-        <Payments />
-        <Banking />
-        <Boost />
-        <Investing />
       </div>
     </>
   );
